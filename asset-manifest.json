@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sikandar-portfolio/static/css/main.3d2a205b.css",
-    "main.js": "/sikandar-portfolio/static/js/main.0f28e217.js",
+    "main.css": "/sikandar-portfolio/static/css/main.8eb59a06.css",
+    "main.js": "/sikandar-portfolio/static/js/main.baf357b3.js",
     "static/css/64.bba8fa55.chunk.css": "/sikandar-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/sikandar-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/sikandar-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -23,16 +23,15 @@
     "static/media/resume.pdf": "/sikandar-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/sikandar-portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/sikandar-portfolio/index.html",
-    "static/media/talksCardBack.svg": "/sikandar-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.3d2a205b.css.map": "/sikandar-portfolio/static/css/main.3d2a205b.css.map",
-    "main.0f28e217.js.map": "/sikandar-portfolio/static/js/main.0f28e217.js.map",
+    "main.8eb59a06.css.map": "/sikandar-portfolio/static/css/main.8eb59a06.css.map",
+    "main.baf357b3.js.map": "/sikandar-portfolio/static/js/main.baf357b3.js.map",
     "64.bba8fa55.chunk.css.map": "/sikandar-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/sikandar-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/sikandar-portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/sikandar-portfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d2a205b.css",
-    "static/js/main.0f28e217.js"
+    "static/css/main.8eb59a06.css",
+    "static/js/main.baf357b3.js"
   ]
 }
