@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sikandar-portfolio/static/css/main.53e87021.css",
-    "main.js": "/sikandar-portfolio/static/js/main.6d4f56ac.js",
+    "main.js": "/sikandar-portfolio/static/js/main.fd017589.js",
     "static/css/64.bba8fa55.chunk.css": "/sikandar-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/sikandar-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/sikandar-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -24,7 +24,7 @@
     "static/media/cer1.webp": "/sikandar-portfolio/static/media/cer1.1a46617e97672ae09dca.webp",
     "index.html": "/sikandar-portfolio/index.html",
     "main.53e87021.css.map": "/sikandar-portfolio/static/css/main.53e87021.css.map",
-    "main.6d4f56ac.js.map": "/sikandar-portfolio/static/js/main.6d4f56ac.js.map",
+    "main.fd017589.js.map": "/sikandar-portfolio/static/js/main.fd017589.js.map",
     "64.bba8fa55.chunk.css.map": "/sikandar-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/sikandar-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/sikandar-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.53e87021.css",
-    "static/js/main.6d4f56ac.js"
+    "static/js/main.fd017589.js"
   ]
 }
