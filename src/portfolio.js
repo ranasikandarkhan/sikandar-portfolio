@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Rana Sikandar",
-  title: "Hi all, I'm Rana Sikandar Khan",
+  title: "Hi, I'm Rana Sikandar Khan",
   subTitle: emoji(
     "A passionate Digital Marketer 🚀 with expertise in SEO, Google Ads, and WordPress development, along with experience in crafting responsive websites, optimizing online presence, and working with front-end tools and technologies."
   ),
