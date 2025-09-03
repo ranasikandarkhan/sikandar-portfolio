@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rana Sikandar",
+  title: "Hi all, I'm Rana Sikandar Khan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Digital Marketer 🚀 with expertise in SEO, Google Ads, and WordPress development, along with experience in crafting responsive websites, optimizing online presence, and working with front-end tools and technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SlpDxivFEccHsnzVG2De1VdTS8PeFuHz/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ranasikandarkhan",
+  linkedin: "https://www.linkedin.com/in/ranasikandar/",
+  gmail: "aftaabrana7@gmail.com",
+  twitter: "https://x.com/RanaSikandar17",
+  facebook: "https://www.facebook.com/rana.sikandar.737",
+  medium: "https://medium.com/@aftaabrana7",
+  instagram: "https://www.instagram.com/engr._rana_sikandar",
+  upwork: "https://www.upwork.com/freelancers/~01aadbe35c6d5f2868",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE DIGITAL MARKETER & FRONTEND DEVELOPER FOCUSED ON GROWTH AND PERFORMANCE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build highly optimized, user-friendly websites that drive traffic & sales"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Craft digital strategies combining SEO, Ads, and analytics for measurable growth"
+    ),
+    emoji(
+      "⚡ Deliver responsive, mobile-friendly experiences that convert visitors into customers"
     )
   ],
 
@@ -65,56 +68,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Search Engine",
+      fontAwesomeClassname: "fas fa-search"
+    },
+    {
+      skillName: "Website SEO",
+      fontAwesomeClassname: "fas fa-globe"
+    },
+    {
+      skillName: "Keyword Research",
+      fontAwesomeClassname: "fas fa-key"
+    },
+    {
+      skillName: "Content Marketing",
+      fontAwesomeClassname: "fas fa-bullhorn"
+    },
+    {
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS-3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "WordPress",
+      fontAwesomeClassname: "fa-brands fa-wordpress"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +113,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "COMSATS University Islamabad",
+      logo: require("./assets/images/COMSATS_logo.png"),
+      subHeader: "Bachelor of Science in Software Engineering",
+      duration: "September 2014 - March 2019",
+      desc: "Graduated with a 2.7 CGPA from COMSATS University Islamabad (Vehari Campus).",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "MTB Schools & Colleges SDK",
+      logo: require("./assets/images/mtb-logo-png.png"),
+      subHeader: "FSC Pre-Engineering",
+      duration: "September 2010 - April 2014",
+      desc: "Achieved 65% marks in FSC (Pre-Engineering) from Sadiqabad Dist. Rahim Yar Khan.",
     }
   ]
 };
@@ -152,19 +134,27 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
+  {
+    Stack: "SEO & Digital Marketing",
+    progressPercentage: "85%"
+  },
+  {
+    Stack: "Frontend Development (HTML/CSS/JS)",
+    progressPercentage: "80%"
+  },
+  {
+    Stack: "Google Ads & Analytics",
+    progressPercentage: "80%"
+  },
+  {
+    Stack: "Content Marketing",
+    progressPercentage: "90%"
+  },
+  {
+    Stack: "WordPress Development (Frontend)",
+    progressPercentage: "80%"
+  }
+],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
@@ -174,29 +164,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "SEO Team Lead",
+      company: "Lattech Solutions",
+      companylogo: require("./assets/images/lattechsolutions_logo.jpg"),
+      date: "June 2024 – Present",
+      desc: "Leading the SEO team to develop and execute effective digital marketing strategies that drive organic traffic, improve search rankings, and enhance online visibility.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Manage on-page, off-page, and technical SEO for multiple client websites and e-Commerce Products.",
+        "Conduct keyword research, competitor analysis, and content optimization to boost rankings and conversions."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sr. SEO Specialist",
+      company: "Epazz Inc",
+      companylogo: require("./assets/images/epazz-logo.png"),
+      date: "October 2021 – May 2024",
+      desc: "Managed and executed end-to-end SEO SaaS base projects, including keyword strategy, technical optimization, and link building, resulting in significant growth in organic traffic and search visibility. Worked closely with cross-functional teams to align SEO efforts with overall marketing goals."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior SEO",
+      company: "TT Technologies (Pvt). Ltd",
+      companylogo: require("./assets/images/tt_technologies_pvt_ltd_logo.jpg"),
+      date: "December 2018 – Sepember 2021",
+      desc: "Led SEO strategies for company e-Commerce site, improving organic rankings, traffic, and conversions through comprehensive keyword research, on-page optimization, technical audits, and high-quality link building. Collaborated with content, design, and development teams to ensure SEO best practices were implemented across all digital assets."
     }
   ]
 };
@@ -213,28 +203,71 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Brands and startups I’ve supported in building their digital presence and technology!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/stc-logo.png"),
+      projectName: "ServerTechCentral",
+      projectDesc: "A trusted IT hardware supplier offering a full range of servers, network equipment, storage, and accessories—providing expert consultation and reliable service for personal and enterprise-scale projects.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://servertechcentral.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/c4s-images.png"),
+      projectName: "Computer4Sales",
+      projectDesc: "Top-tier IT hardware store featuring a wide inventory of components—from servers and storage to peripherals—backed by personalized customer support and competitive pricing.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://computer4sales.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/df-logo.png"),
+      projectName: "DeskFlex",
+      projectDesc: "Hybrid workplace management platform offering smart desk booking, room scheduling, and resource reservation tools integrated with office systems to boost efficiency and flexibility.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://deskflex.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/phonecasepk_logo.png"),
+      projectName: "PhoneCase",
+      projectDesc: "A dynamic mobile accessory storefront, offering a wide variety of phone cases and accessories tailored to diverse device models and user preferences.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "htts://phonecase.pk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tf-logo.png"),
+      projectName: "Toffos",
+      projectDesc: "An Australian-based platform delivering vibrant, customized lifestyle accessories with a focus on quality and creative design tailored to modern aesthetics.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://toffos.com.au/"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/bm-logo.png"),
+      projectName: "Bannam Makers",
+      projectDesc: "Presents handcrafted, culturally rich products crafted by local artisans in Pakistan, blending tradition with contemporary design.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://banaam.pk/"
         }
       ]
     }
@@ -248,58 +281,49 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements and Certifications that I have done !",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
+  {
+    title: "Fundamental of Digital Marketing",
+    subtitle:
+      "Certified in the fundamentals of digital marketing, covering SEO, SEM, social media, and analytics strategies for driving online growth.",
+    image: require("./assets/images/cer1.webp"), // Replace with relevant image
+    imageAlt: "Fundamentals of Digital Marketing",
+    footerLink: [
+      {
+        name: "View Certification",
+        url: "https://drive.google.com/file/d/1hHWWVE2aTeYd80GcrBhURf6Hezprn6y5/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    title: "Link Building",
+    subtitle:
+      "Earned certification in link building techniques, focusing on outreach, backlink strategies, and improving domain authority.",
+    image: require("./assets/images/cer2.webp"), // Replace with relevant image
+    imageAlt: "Link Building",
+    footerLink: [
+      {
+        name: "View Certification",
+        url: "https://drive.google.com/file/d/1tex-7wNUra194QIJ_6UaU2hDUk8mxR1A/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    title: "On-Page and Technical SEO",
+    subtitle:
+      "Certified in on-page and technical SEO, including site structure optimization, page speed improvements, and schema markup.",
+    image: require("./assets/images/cer3.webp"), // Replace with relevant image
+    imageAlt: "On-Page and Technical SEO",
+    footerLink: [
+      {
+        name: "View Certification",
+        url: "https://drive.google.com/file/d/19bwrOU-i-L1zMJ-_L3c2uhV_aZnFbT5P/view?usp=drive_link"
+      }
+    ]
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -308,53 +332,15 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  <p>Sharing insights on digital growth, marketing strategies, and technology trends to help businesses thrive online.</p>,
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    url: "https://medium.com/@aftaabrana7/the-growth-stack-revolution-powering-the-next-era-of-online-business-bc12622ce8da",
+    title: "The Growth Stack Revolution - Powering the Next Era of Online Business",
+    description:
+      "Discover how the Growth Stack Revolution is transforming online business, integrating strategies, tools, and systems to drive sustainable growth in the digital era."
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -372,8 +358,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92306-6168691",
+  email_address: "aftaabrana7@gmail.com"
 };
 
 // Twitter Section
@@ -398,8 +384,8 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
+  // talkSection,
+  // podcastSection, // removed
   contactInfo,
   twitterDetails,
   isHireable,
